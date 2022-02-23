@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/advanced.css">
+    <title>Search</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header" id="back">
+            <a href="../index.html">Back</a>
+        </div>
+        <div class="main">
+            <a href="../index.html">
+                <h1 id="title" class="title">
+                    <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span
+                        class="blue">g</span><span class="green">l</span><span class="red">e</span>
+                </h1>
+                <h3>Advanced Search</h3>
+            </a>
+            <form id="advanced" class="searchform" action="https://www.google.com/search">
+                <div>
+                    <label id="titleform">Find pages with...</label>
+                </div>
+                <div>
+                    <label>all these words:</label>
+                    <input id="textbox" class="textbox" autocomplete="off" type="text" name="as_q">
+                </div>
+                <div>
+                    <label>this exact word or phrase:</label>
+                    <input id="textbox" class="textbox" autocomplete="off" type="text" name="as_epq">
+                </div>
+                <div>
+                    <label>any of these words:</label>
+                    <input id="textbox" class="textbox" autocomplete="off" type="text" name="as_oq">
+                </div>
+                <div>
+                    <label>none of these words:</label>
+                    <input id="textbox" class="textbox" autocomplete="off" type="text" name="as_eq">
+                </div>
+                <div id="buttonwrapper">
+                    <input class="button" type="submit" value=" Search">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
